@@ -43,6 +43,13 @@ tempfile = Tempfile.new("tempfile")
 
 
 ## 参考
+### Tempfile
 [class Tempfile](https://docs.ruby-lang.org/ja/latest/class/Tempfile.html)  
 [一時ディレクトリ/一時ファイルを使用する](https://maku77.github.io/ruby/temporary-file.html)  
 [一時ファイルを作成する](http://rubytips86.hatenablog.com/entry/2014/03/23/193153)
+
+### 標準入力とのコンボ
+[これ](lib/withstdin.rb)を実現するためそのままズバリ
+
+
+[Ruby 標準入力から複数行読み取りたい](http://nnnamani.hateblo.jp/entry/2016/08/14/150900)
